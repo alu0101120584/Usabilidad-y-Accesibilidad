@@ -11,6 +11,8 @@
 
 [Seminario2](https://github.com/kenshinsamue/UyA/tree/master/Seminario2) 01/03/2020
 
+[Seminario4](https://github.com/eduardoreyes99/Usabilidad-y-Accesibilidad/tree/master/Seminario%204) 25/03/2020
+
 ## Practica
 
 [Practica1](https://github.com/kenshinsamue/UyA/tree/master/Practica1) 25/02/2020
