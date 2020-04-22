@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntroFirebase</title>
+</head>
+
+<body>
+
+    <h1>Test con Firebase</h1>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCm6tsfIVv7lR3LaOQzmZ_KElq9S9qkzWc",
+            authDomain: "introfirebase-a9c29.firebaseapp.com",
+            databaseURL: "https://introfirebase-a9c29.firebaseio.com",
+            projectId: "introfirebase-a9c29",
+            storageBucket: "introfirebase-a9c29.appspot.com",
+            messagingSenderId: "939025408485",
+            appId: "1:939025408485:web:e4bfa74431de71bcfecf0c",
+            measurementId: "G-MH8ESBKBW5"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        var database = firebase.database();
+        var referencia = database.ref('usuario1');
+
+        referencia.set({
+            nombre: 'Eduardo',
+            apellido: 'Reyes'
+        });
+
+
+    </script>
+
+</body>
+
+</html>
