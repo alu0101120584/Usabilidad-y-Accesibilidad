@@ -31,5 +31,3 @@ var referencia = database.ref('usuarios/usuario3');
         })
 ```
 ![Texto alternativo](https://github.com/eduardoreyes99/Usabilidad-y-Accesibilidad/blob/master/Practica%207-1/img/Update.png)
-4. Consulta de datos por consola
-![Texto alternativo]()
