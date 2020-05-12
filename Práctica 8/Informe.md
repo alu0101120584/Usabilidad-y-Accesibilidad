@@ -5,6 +5,7 @@
 1. **Sin WAI-ARIA**
 
 ![](gifs/Practica4-sin.gif)
+
 2. **Con WAI-ARIA**
 
 ![](gifs/Practica5-sin.gif)
