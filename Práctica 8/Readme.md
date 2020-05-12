@@ -1,12 +1,11 @@
 
-# Evaluación automática de la accesibilidad
-Realizar un comentario respecto a la evaluación automática de la accesibilidad que proporcionan las siguientes herramientas:
+# Ejercicio WAI-ARIA
+Revisar las páginas con formularios que has desarrollado, localiza los siguiente elementos:
 
-1. Validadores html y CSS del W3C
-2. WAVE
-3. Contraste de colores
+Contenido que se actualiza dinámicamente, por ejemplo, mensajes que se actualizan automáticamente: chat, twitter, validación de formularios, banners, contadores, etc.
+Diferentes comportamientos en la página: menús, arcodeones, árboles desplegables, tooltips, pestañas, barras de progreso, etc.
+Relaciones entre elementos: ayuda contextual de los formularios, texto que describe elementos, etc.
+Los elementos que no reciben el foco
+Etiqueta apropiadamente mediante WAI-ARIA para mejorar la accesibilidad de esta página. Prueba con Chrome Vox, antes y después de agregar los atributos WAI-ARIA
 
-Sobre las páginas de inicio de los sitios:
-1. Cermi
-2. Cabildo de Tenerife
-3. La caixa
+Crear un informe en el Readme de github que incluya gif animados con la verificación usando Chrome Vox.
