@@ -3,7 +3,7 @@
 
 ## Práctica 4
 1. **Sin WAI-ARIA**
-![Practica4-sin](gif/Practica4-sin.gif)
+![](gifs/Practica4-sin.gif)
 2. **Con WAI-ARIA**
 ## Práctica 5
 1. **Sin WAI-ARIA**
