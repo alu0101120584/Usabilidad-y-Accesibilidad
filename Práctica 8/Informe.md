@@ -10,6 +10,7 @@ Se puede observar que sin WAI-ARIA chrome vox recorre a la perfección la barra 
 
 2. **Con WAI-ARIA**
 
+![](gifs/Practica4-con.gif)
 
 ## Práctica 5
 1. **Sin WAI-ARIA**
@@ -21,4 +22,5 @@ Se observa que recorre todos los elementos de la página correctamente, menos lo
 2. **Con WAI-ARIA**
 
 Una vez incluidas las etiquetas WAI-ARIA conseguimos que pase por todos los textos y los lea.
+
 ![](gifs/Practica5-con.gif)
