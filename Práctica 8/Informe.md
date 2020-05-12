@@ -4,11 +4,13 @@
 ## Práctica 4
 1. **Sin WAI-ARIA**
 
-Se puede observar que sin WAI-ARIA chrome vox recorre a la perfección la barra de navegación y el footer, sin embargo no reconoce el texto de la página.
+Se puede observar que sin WAI-ARIA chrome vox recorre a la perfección la barra de navegación y el footer, sin embargo no reconoce el texto de la página ni entra en los elementos de materialize "cards".
 
 ![](gifs/Practica4-sin.gif)
 
 2. **Con WAI-ARIA**
+
+Una vez incluidas las etiquetas WAI-ARIA Chrome Vox recorre todos los elemtnos de la página de forma correcta, tanto como el texto de las cartas, como la opción que permite a estas cartas desplegarse.
 
 ![](gifs/Practica4-con.gif)
 
