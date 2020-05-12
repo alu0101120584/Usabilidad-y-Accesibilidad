@@ -5,6 +5,7 @@
 1. **Sin WAI-ARIA**
 
 Se puede observar que sin WAI-ARIA chrome vox recorre a la perfección la barra de navegación y el footer, sin embargo no reconoce el texto de la página
+
 ![](gifs/Practica4-sin.gif)
 
 2. **Con WAI-ARIA**
