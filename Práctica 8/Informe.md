@@ -14,8 +14,11 @@ Se puede observar que sin WAI-ARIA chrome vox recorre a la perfección la barra 
 ## Práctica 5
 1. **Sin WAI-ARIA**
 
-Se observa que recorre todos los elementos de la página correctamente, menos los textos, sí los títulos aparecen originalmente al cargar la página no lee su contenido mientras que si se generan posteriormente ni siquiera los reconoce.
+Se observa que recorre todos los elementos de la página correctamente, menos los textos de la página que se los salta al navegar por teclado.
 
 ![](gifs/Practica5-sin.gif)
 
 2. **Con WAI-ARIA**
+
+Una vez incluidas las etiquetas WAI-ARIA conseguimos que pase por todos los textos y los lea.
+![](gifs/Practica5-con.gif)
