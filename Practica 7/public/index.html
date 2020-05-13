@@ -44,12 +44,18 @@
         firebase.analytics();
 
         var database = firebase.database();
-        var referencia = database.ref('usuario1');
+        var referencia = database.ref('usuarios/usuario3');
 
+        // Insertando
         referencia.set({
-            nombre: 'Eduardo',
-            apellido: 'Reyes'
+            nombre: "Alberto",
+            apellido: "González",
         });
+    
+        // Actualizando 
+        referencia.update({
+            apellido: "Hernández",
+        })
 
 
     </script>

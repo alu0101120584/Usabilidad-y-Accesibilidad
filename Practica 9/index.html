@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+            <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>WAI-ARIA Materialize</title>
+</head>
+
+<body>
+    <div class="breadcrumb">
+        <nav>
+            <div class="nav-wrapper" aria-label=”breadcrumbs”>
+                <div class="col s12"></div>
+                        <a href="#!" class="breadcrumb" aria-hidden="true">First</a>
+                        <a href="#!" class="breadcrumb" aria-hidden="true">Second</a>
+                        <a href="#!" class="breadcrumb" aria-current="location" aria-hidden="true">Third</a>
+                </div>
+            </div>  
+        </nav>
+    </div>
+    
+    <div class="acordeon">
+        <ul class="collapsible">
+            <li>
+                <button aria-expanded="false" class="collapsible-header" id="boton1" aria-controls="body1">First</button>
+                <div hidden="" class="collapsible-body" id="body1"><span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+            <li>
+                <button aria-expanded="true" class="collapsible-header" id="boton2" aria-controls="body2">Second</button>
+                <div hidden="" class="collapsible-body" id="body2"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <button aria-expanded="false" class="collapsible-header" id="boton3" aria-controls="body3">Third</button>
+                <div hidden="" class="collapsible-body" id="body3"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="carousel" aria-live="polite">
+        <button id="dcha" aria-label="derecha">&rarr;</button>
+        <button id="izda" aria-label="izquierda">&larr;</button>
+        
+        <a class="carousel-item" id="primero" href="#one!" tabindex="-0" aria-controls="imagen1">
+            <img id="imagen1" src="images/imagen1.jpg" width="400px"></a>
+
+        <a class="carousel-item" id="segundo" href="#two!" tabindex="-1" aria-controls="imagen2">
+            <img id="imagen2" src="images/imagen2.jpg" width="400px"></a>
+        
+            <a class="carousel-item" id="tercero" href="#three!" tabindex="-1" aria-controls="imagen3">
+            <img id="imagen3" src="images/imagen3.jpg" width="400px"></a>
+    </div>
+
+    <script src="js/materialize.min.js "></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
