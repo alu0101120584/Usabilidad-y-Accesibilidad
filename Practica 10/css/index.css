@@ -1,0 +1,39 @@
+.nav-wrapper {
+    width: 100%;
+    background-color: #070535;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+}
+.page-footer {
+    width: 100%;
+    background-color: #070535;
+}
+
+#banco {
+    display: block;
+    margin:auto;
+    width: 80%;
+    height: 80%;
+}
+#logo {
+    width: 10%;
+    height: 10%;
+}
+
+#facebook {
+    width: 10%;
+    height: 10%;
+}
+
+#twitter {
+    width: 10%;
+    height: 10%;
+}
+
+#gmail {
+    width: 10%;
+    height: 10%;
+}

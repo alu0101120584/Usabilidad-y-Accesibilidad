@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Banco de Tiempo</title>
+    <link rel="shortcut icon" href="img/logo.png"/>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center"><img id="logo" src="img/logo.png"></a>
+            
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Quees">¿Qué es?</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
+                <li><a href="#">Registrarse</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Banco de tiempo</h1>
+
+    <div id="carousel" class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+        <div class="carousel-item" href="#one!">
+            <img src="https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/pseudoclases-css-first-child-last-child-nth-child-t1.png">
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+            <img src="https://blog.oxfamintermon.org/wp-content/uploads/2015/04/bancos-tiempo-726x470.jpg"></p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+            <img src="data:image/png;base64,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"></img>
+        </div>
+    </div>
+
+    <div id="Quees">
+        <h2>¿Qué es?</h2>
+        
+        <div class="row">
+            <div class="col s2"></div>
+            <div class="col s4"><img alt="Imagen decorativo banco de tiempo" id="banco" src="img/banco1.png"></div>
+            <div class="col s4">
+                <p>
+                    Un Banco de Tiempo es una herramienta con la cual un grupo de personas 
+                    puede crear una alternativa económica social. En un Banco de Tiempo se 
+                    intercambian habilidades entre los miembros sin utilizar dinero, únicamente 
+                    se contabilizan las horas de servicio prestado y recibido
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a lorem id quam gravida interdum. 
+                    Fusce iaculis lorem sit amet odio blandit condimentum. Duis eget tempus turpis. Integer tincidunt 
+                    sapien non urna imperdiet mollis. Fusce congue diam ut turpis venenatis, in ornare est accumsan. 
+                    Sed in massa dapibus, facilisis elit dignissim, laoreet enim. Donec euismod lobortis tortor nec dignissim. 
+                    Morbi rutrum diam a turpis condimentum, et imperdiet orci lacinia. Etiam luctus ligula sed leo finibus, 
+                    non tincidunt velit ornare. Phasellus scelerisque, neque eget iaculis vulputate, ligula magna vestibulum 
+                    est, id pretium velit augue sed dolor. Nam aliquet eu mi non sollicitudin.
+                </p>      
+        </div>
+            <div class="col s2"></div>
+        </div>
+    </div>
+
+    <div id="Nosotros"> 
+        <h2>Nosotros</h2>
+
+        <div class="row">
+            <div class="col s2"></div>
+            <div class="col s8">
+                <p>
+                    Somos un grupo de amigos que creamos esta pagina para ayudar a gestionar 
+                    Un Banco de Tiempo que ayuda a la sociedad ya que se intercambian habilidades entre los miembros
+                    sin utilizar dinero, únicamente utilizando las horas de servicio prestado y recibido.</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a lorem id quam gravida interdum. 
+                    Fusce iaculis lorem sit amet odio blandit condimentum. Duis eget tempus turpis. Integer tincidunt 
+                    sapien non urna imperdiet mollis. Fusce congue diam ut turpis venenatis, in ornare est accumsan. 
+                    Sed in massa dapibus, facilisis elit dignissim, laoreet enim. Donec euismod lobortis tortor nec dignissim. 
+                    Morbi rutrum diam a turpis condimentum, et imperdiet orci lacinia. Etiam luctus ligula sed leo finibus, 
+                    non tincidunt velit ornare. Phasellus scelerisque, neque eget iaculis vulputate, ligula magna vestibulum 
+                    est, id pretium velit augue sed dolor. Nam aliquet eu mi non sollicitudin.
+                </p>      
+            </div>
+            <div class="col s2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/Personal.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Personal<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <h4>Personal</h4>
+                      <table class = "stripped">
+                        <thead>
+                          <tr>
+                              <th>Nombre</th> <th>Apellidos</th> <th>Trabajo</th>
+                          </tr>
+                        </thead>
+                
+                        <tbody>
+                          <tr>
+                            <td>Juan Eduardo</td> <td>Reyes P&eacuterez</td> <td>Diseñador web</td>
+                          </tr>
+                          <tr>
+                            <td>Nelson</td> <td>Noda P&eacuterez</td> <td>Experto en accesibilidad</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s4"></div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">    
+                    <h5 class="white-text">Footer Content</h5>
+                    <p>You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        
+                        <li><a class="grey-text text-lighten-3" href="#!"><img alt ="Acceder a nuestro facebook"id="facebook" src="img/facebook.png"></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><img alt="Acceder a nuestro Twitter" id="twitter" src="img/twitter.png"></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><img alt="Acceder a nuestro gmail" id="gmail" src="img/gmail.png"></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Teléfono: 663245477</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                    © 2020 Copyright
+                    <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+                </div>
+        </div>
+    </footer>
+</body>
+
+</html>
