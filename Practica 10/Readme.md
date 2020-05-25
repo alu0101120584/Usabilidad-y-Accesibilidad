@@ -12,4 +12,4 @@
 La entrega corresponde al enlace al google docs, el documento html sin estilos, el documento html con los estilos y las hojas de estilo en github, así como la página desplegada en github. 
 También se debe entregar un zip que incluya cada uno de los ficheros mencionados.
 
-[Página desplegada en github](https://eduardoreyes99.github.io/Usabilidad-y-Accesibilidad/Practica 10/index.html)
+[Página desplegada en github](https://eduardoreyes99.github.io/Usabilidad-y-Accesibilidad/Practica%2010/index.html)
