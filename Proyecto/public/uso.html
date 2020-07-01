@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script  src="http://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+	<link href="./css/uso.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="js/index.js"></script>
+
+
+	<title>Banco de Tiempo</title>
+	<link rel="shortcut icon" href="img/logo.png"/>
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo center"><img alt="logo" id="logo" src="img/logo.png"></a>
+		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		  <ul class="right hide-on-med-and-down">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="formulario.html">Acceder</a></li>
+			<li><a href="upload.html">Banco de tiempo</a></li>
+			<li><a href="#">Ayuda</a></li>
+		  </ul>
+		</div>
+	</nav>
+	
+	<ul tabindex="-1" class="sidenav" id="mobile-demo">
+		<li><a tabindex="-1" href="index.html">Inicio</a></li>
+		<li><a tabindex="-1" href="formulario.html">Acceder</a></li>
+		<li><a tabindex="-1" href="upload.html">Banco de tiempo</a></li>
+		<li><a tabindex="-1" href="#">Ayuda</a></li>
+	</ul>
+
+	<nav>
+		<div class="nav-wrapper">
+			<div class="col s12">
+				<a href="index.html" class="breadcrumb">Inicio</a>
+				<a href="#" class="breadcrumb">Ayuda</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1>Ayuda</h1>
+		<h3 tabindex="0">Nuestra página</h3>
+		<p tabindex="0"> 
+			Nuestro banco de tiempo está inspirado en el sistema utilizado en muchas páginas de ofertas. 
+			Cualquier usuario puede ver las ofertas que hay disponibles en la pestaña banco 
+			de tiempo y si hay alguna que le interesa, contactar con el usuario que la ha publicado. 
+			En caso de que no encuentre ninguna de su gusto, usted mismo puede crear una oferta.
+		</p>
+
+		<h3 tabindex="0">Funcionamiento de nuestra página</h3>
+		<p tabindex="0">
+			Para acceder a la funcionalidad princiapl de nuestra página simplemente tendra que dirigirse a la 
+			sección de Banco de tiempo. Una vez allí podrá observar una tabla donde se encuentran
+			todas las ofertas disponibles, cada oferta podrá ser seleccionada haciendo click en el boton "Seleccionar", si realiza 
+			esta acción se abrirá el programa que tenga definido en su ordenador para utilizar el correo electrónico y podrá contactar
+			directamente con el ofertante, si no está conforme con ninguna d elas ofertas propuestas en la parte inferior de la página
+			podrá subir su oferta en completando el formulario, para realizar cualquiera de estas dos funciones deberá estar registrado.
+		</p>
+		<h3 tabindex="0">Acceder a nuestra página</h3>
+		<p tabindex="0">	
+			Para realizar las funcionalidades básicas de la página necesitamos que inicies sesión o en su defecto te registres en nuestro
+			sitio web, para ello simplemente hay que acceder a la parte de Acceder y completar el formulario 
+			que allí se encuentra, una vez completado estremos dentro, Para cerrar sesión solo pulsaremos el botón "logout".
+		</p>
+		<h3 tabindex="0">Contáctanos</h3>
+		<p tabindex="0">
+			Todos los métodos de contacto disponibles se encuentran en la parte inferior de cualquier sitio web del sitio web.
+		</p>
+	</div>
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l4 s12">    
+					<h5 tabindex="0" class="white-text">Páginas del sitio</h5>
+					<div class="row"><a href="index.html">Inicio</a></div>
+					<div class="row"><a href="formulario.html">Acceso</a></div>
+					<div class="row"><a  href="upload.html">Banco de tiempo</a></div>
+
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 tabindex="0" class="white-text">Contáctanos</h5>
+					<ul>
+						<div id="enlaces">
+							<li><a  href="https://www.facebook.com/Banco-de-Tiempo-106227874485087/?view_public_for=106227874485087"><img alt ="Acceder a nuestro facebook" id="facebook" src="img/facebook.png"></a></li>
+                        <li><a  href="https://twitter.com/home"><img alt="Acceder a nuestro Twitter" id="twitter" src="img/twitter.png"></a></li>
+                        <li><a  href="mailito:bancodetiempogrupo15@gmail.com"><img alt="Acceder a nuestro gmail" id="gmail" src="img/gmail.png"></a></li>
+                        <li><a tabindex="0">Teléfono: 663245477</a></li>
+						</div>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+					© 2020 Copyright
+					<!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+				</div>
+		</div>
+	</footer> 
+
+	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>  
+	<script src="js/formulario.js"></script>
+
+</body>
+
+</html>
+ 

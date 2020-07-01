@@ -1,0 +1,77 @@
+.nav-wrapper {
+    width: 100%;
+    background-color: #5D023C ;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+}
+.page-footer {
+    width: 100%;
+    background-color: #4d0030 ;
+}
+
+#banco {
+    display: block;
+    margin:auto;
+    width: 80%;
+    height: 80%;
+}
+#logo {
+    width: 10%;
+    height: 10%;
+}
+
+#facebook {
+    width: 10%;
+    height: 10%;
+}
+
+#twitter {
+    width: 10%;
+    height: 10%;
+}
+
+#gmail {
+    width: 10%;
+    height: 10%;
+}
+
+p {
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parallax{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 55px;
+}
+
+#centrar {
+    display: flex;
+    min-height: 30vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a:link {text-decoration:none;color:#ffffff;} 
+a:visited {text-decoration:none;color:#ffffff;} 
+a:active {text-decoration:none;color:#ff0000;} 
+a:hover {text-decoration:underline;color:#ffcc33;}
